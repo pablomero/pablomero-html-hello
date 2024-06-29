@@ -1,0 +1,43 @@
+body {
+    background: lightgray;
+    font-family: Cantarell;
+    margin: 0px;
+}
+
+h1 {
+    background: white;
+    margin: 0px auto;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+img {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    object-fit: contain;
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 480px;
+    margin: auto;
+    width: 100%;
+}
+
+.flex-container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.flex-container div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container p,
+div>h2,
+h3 {
+    margin: 5px;
+}
